@@ -10,6 +10,8 @@ return badges
 end 
 
 def assign_rooms(attendees)
+ 
+ 
  rooms= 1
   attendees.each {|attendee| return "Hello, #{attendee}! You'll be assigned to room #{rooms}!"
     rooms +=1
